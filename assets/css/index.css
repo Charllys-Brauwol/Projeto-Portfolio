@@ -6,14 +6,33 @@ body{
 
 .barra-menu{
     font-weight: lighter;
-    color: #fff;
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.bibliografia{
+.barra-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+}
 
+.barra-menu li{
+    list-style: none;
+    padding-right: 55px;
+}
+
+.barra-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.bibliografia{
+    color: #fff;
+}
+
+.curiodidades{
+    margin-left: 200px;
 }
 
 .contatos{
@@ -23,3 +42,5 @@ body{
 .contatos img{
     width: 20px;
 }
+
+
