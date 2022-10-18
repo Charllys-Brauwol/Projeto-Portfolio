@@ -1,60 +1,61 @@
-body{
-    background-color: #252627;;
+body {
     background: linear-gradient(to bottom, #121313 0%, #222324 50%, #464747 100%);
     height: 100vh;
 }
 
-.barra-menu{
+.barra-menu {
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 55px;
+    border-bottom: 2px solid rgb(153, 0, 255);
+    box-shadow: 0px -10px 5px rgba(225, 0, 255, 0.0), 0px 7px 30px rgba(153, 0, 255, 0.7);
+
 }
 
-.barra-menu img{
+.barra-menu img {
     width: 35px;
     filter: invert(100%);
 }
 
 
-.barra-menu a{
+.barra-menu a {
     text-decoration: none;
     color: #fff;
     font-weight: lighter;
 }
 
-.barra-menu li{
+.barra-menu li {
     list-style: none;
     padding-right: 100px;
 }
 
 
-.barra-menu ul{
+.barra-menu ul {
     display: flex;
     justify-content: center;
 }
 
-.bibliografia{
+.bibliografia {
     color: #fff;
 }
 
-.curiodidades{
+.curiodidades {
     text-align: justify;
 }
 
-.contatos{
+.contatos {
     text-align: center;
 }
 
 .btn {
-    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
     margin-right: 10px;
-  }
-  .btn:hover {
-    box-shadow: 0 0 40px 40px #fff inset, 0 0 5px 5px #fff;
-  }
-
-.contatos img{
-    width: 20px;
 }
 
+.btn:hover {
+    transition: 350ms;
+    box-shadow: 0 0 40px 40px #fff inset, 0 0 5px 5px #9900ff;
+}
 
+.contatos img {
+    width: 20px;
+}
