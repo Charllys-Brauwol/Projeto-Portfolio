@@ -12,21 +12,15 @@ body {
 
 }
 
-.barra-menu img {
-    width: 35px;
-    filter: invert(100%);
-}
-
-
 .barra-menu a {
     text-decoration: none;
     color: #fff;
-    font-weight: lighter;
 }
 
 .barra-menu li {
     list-style: none;
     padding-right: 100px;
+    padding-top: 25px;
 }
 
 
@@ -35,12 +29,29 @@ body {
     justify-content: center;
 }
 
-.bibliografia {
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    width: 200px;
+    margin-top: 65px;
+    border-radius:  70px;
+}
+
+.bibliografia-direita {
     color: #fff;
+    padding-right: 100px;
+}
+
+.bibliografia-direita h3 {
+    font-size: 30px;
+    text-align: center;
 }
 
 .curiodidades {
     text-align: justify;
+    font-size: 20px;
 }
 
 .contatos {
