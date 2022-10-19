@@ -29,14 +29,14 @@ body {
     justify-content: center;
 }
 
-.foto{
+.foto {
     text-align: center;
 }
 
-.foto img{
+.foto img {
     width: 200px;
     margin-top: 65px;
-    border-radius:  70px;
+    border-radius: 70px;
 }
 
 .bibliografia-direita {
