@@ -10,12 +10,14 @@
 ======================================*/
 
 body {
-  background: linear-gradient(to bottom, #000000 0%, #363636 0%, #767676 100%);
+  background: linear-gradient(to bottom, #000000 0%, #262626 50%, #565656 100%);
   height: 100vh;
   background-attachment: fixed;
 }
-
-
+ 
+.img-home{
+  background-image: url(../../assets/img/coding-website-background.jpg);
+}
 
 a {
   color: #1e1e1e;
@@ -912,6 +914,7 @@ a:hover {
   display: inline-block;
   float: right;
 }
+
 
 /*======================================
 //--//-->   BLOG-SINGLE
