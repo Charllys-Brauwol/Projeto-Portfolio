@@ -16,9 +16,11 @@ body {
 }
  
 .img-home{
-  background-image: url(../../assets/img/coding-website-background);
-  margin-top: 80px;
-  background-color: rgba(252, 252, 252, 0.937);
+  background-image: url(../img/coding-website-background);
+  background-color: rgba(0, 0, 0, 0.85);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -31,13 +33,13 @@ a:hover {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-
+/*
 .p-r {
   position: relative;
 }
 
 .color-a {
-  color: #0078ff;
+  color: #ff0800;
 }
 
 .color-d {
@@ -47,7 +49,7 @@ a:hover {
 .color-text-a {
   color: #4e4e4e;
 }
-
+*/
 .box-shadow,
 .paralax-mf,
 .service-box,
@@ -61,6 +63,7 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
+/*
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
@@ -79,6 +82,7 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
+*/
 
 .bg-image {
   background-repeat: no-repeat;
@@ -145,6 +149,7 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+/*Títulos das Seções: Habilidades, Portifólio, Contato...*/
 .title-a {
   font-size: 3rem;
   font-weight: bold;
@@ -152,10 +157,12 @@ a:hover {
   color: #0078ff;
 }
 
+/*Sub-titulos das Seções*/
 .subtitle-a {
   color: #fff;
 }
 
+/*Linhaa abaixo das Seções*/
 .line-mf {
   width: 40px;
   height: 5px;
@@ -174,6 +181,7 @@ a:hover {
   position: relative;
 }
 
+/*Linha abaixo de sobre*/
 .title-left:before {
   content: '';
   position: absolute;
@@ -189,6 +197,7 @@ a:hover {
   padding-left: 2rem;
 }
 
+/*Box da seção Sobre*/
 .box-shadow-full {
   margin-top: 3rem;
   padding: 3rem 1.25rem;
@@ -246,12 +255,13 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #010305;
   margin-right: 10px;
 }
 
 /*------/ Ico Circle /------*/
 
+/*Icones da seção Habilidades*/
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -260,7 +270,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #000000;
   display: block;
 }
 
@@ -418,6 +428,7 @@ a:hover {
   padding-left: 0;
 }
 
+/*Títulos do Navbar*/
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
@@ -458,6 +469,7 @@ a:hover {
   width: 35px;
 }
 
+/*Linha abaixo do Home antes da transição*/
 .navbar-b.navbar-trans .nav-link:before {
   background-color: #fff;
 }
@@ -466,6 +478,7 @@ a:hover {
   color: #fff;
 }
 
+/*Cor da Fonte do Home antes da transição*/
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
@@ -473,6 +486,7 @@ a:hover {
   color: #fff;
 }
 
+/*div do navbar*/
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
   background-color: #fff;
@@ -480,18 +494,22 @@ a:hover {
   padding-bottom: 15px;
 }
 
+/*Textos do navbar depois da transição*/
 .navbar-b.navbar-reduce .nav-link {
   color: #0078ff;
 }
 
+/*Linha do navbar depois da transição*/
 .navbar-b.navbar-reduce .nav-link:before {
   background-color: #0078ff;
 }
 
+/*Texto do navbar quando passa o mouse em cima*/
 .navbar-b.navbar-reduce .nav-link:hover {
   color: #0078ff;
 }
 
+/*Texto do navbar da seção que está*/
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
@@ -711,11 +729,12 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+/*Icones da Seção Habilidades quando passa o mouse*/
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #000000;
+  box-shadow: 0 0 0 10px #ccd8e4;
 }
 
 .service-box .service-ico {
@@ -865,7 +884,7 @@ a:hover {
 /*======================================
 //--//-->   BLOG
 ======================================*/
-
+/*
 .card-blog .card-body {
   position: relative;
 }
@@ -916,7 +935,7 @@ a:hover {
   display: inline-block;
   float: right;
 }
-
+*/
 
 /*======================================
 //--//-->   BLOG-SINGLE
