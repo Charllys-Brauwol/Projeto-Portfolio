@@ -176,9 +176,14 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+
 .title-left {
   font-size: 2rem;
   position: relative;
+}
+
+.lead{
+  text-align: justify;
 }
 
 /*Linha abaixo de sobre*/
@@ -521,15 +526,17 @@ a:hover {
   color: #0078ff;
 }
 
+/*Cor das barras do menu quando está reduzida*/
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #0078ff;
 }
 
+/*
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: rgb(240, 14, 14);
   font-size: 1.6rem;
   font-weight: 600;
-}
+}*/
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
 .navbar-b .dropdown.show .dropdown-menu,
@@ -544,20 +551,21 @@ a:hover {
   border-radius: 0;
 }
 
+/*
 .navbar-b .dropdown-menu .dropdown-item {
   padding: .7rem 1.7rem;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #0078ff;
+  background-color: #ff0000;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
   background-color: #0078ff;
-}
+}*/
 
 /*--/ Hamburger Navbar /--*/
 
@@ -621,7 +629,7 @@ a:hover {
 .intro {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: #0078ff;
 }
 
 .intro .intro-content {
@@ -733,7 +741,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #000000;
+  background-color: #0078ff;
   box-shadow: 0 0 0 10px #ccd8e4;
 }
 
@@ -842,7 +850,7 @@ a:hover {
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
-
+/*
 .testimonials .owl-carousel .owl-item img {
   width: auto;
 }
@@ -879,7 +887,7 @@ a:hover {
   margin: 0 auto;
   border-radius: 50%;
   line-height: 1.6;
-}
+}*/
 
 /*======================================
 //--//-->   BLOG
@@ -940,7 +948,7 @@ a:hover {
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
-
+/*
 .post-box,
 .form-comments,
 .box-comments,
@@ -980,10 +988,10 @@ a:hover {
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
-}
+}*/
 
 /*------/ Comments /------*/
-
+/*
 .box-comments .list-comments li {
   padding-bottom: 40px;
 }
@@ -1020,9 +1028,9 @@ a:hover {
 .box-comments .comment-children {
   margin-left: 40px;
 }
-
+*/
 /*------/ Sidebar /------*/
-
+/*
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1071,24 +1079,24 @@ a:hover {
 
 .widget-tags ul li a {
   color: #fff;
-}
+}*/
 
 /*======================================
 //--//-->   CONTACT
 ======================================*/
-
+/*
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
 
 .contact-mf {
   margin-top: 4rem;
-}
+}*/
 
 /*======================================
 //--//-->   FOOTER
 ======================================*/
-
+/*
 footer {
   text-align: center;
   color: #fff;
@@ -1105,12 +1113,12 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
-}
+}*/
 
 /*======================================
 //--//-->   CONtaCT FORM
 ======================================*/
-
+/*
 #sendmessage {
   color: #0078ff;
   border: 1px solid #0078ff;
@@ -1144,7 +1152,7 @@ footer .credits a {
   font-weight: 400;
   font-size: 13px;
 }
-
+*/
 /*======================================
 //--//-->   BUTTON
 ======================================*/
