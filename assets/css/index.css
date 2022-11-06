@@ -10,7 +10,7 @@
 ======================================*/
 
 body {
-  background: linear-gradient(to bottom, #000000 0%, #262626 50%, #565656 100%);
+  background-image: url(../img/background.jpg);
   height: 100vh;
   background-attachment: fixed;
 }
@@ -21,6 +21,10 @@ body {
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-portifolio img{
+  width: 100%;
 }
 
 a {
