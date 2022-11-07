@@ -480,7 +480,7 @@ a:hover {
 
 /*Linha abaixo do Home antes da transição*/
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #0062d3;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -492,7 +492,7 @@ a:hover {
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #0062d3;
 }
 
 /*div do navbar*/
@@ -505,7 +505,7 @@ a:hover {
 
 /*Textos do navbar depois da transição*/
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: rgb(3, 3, 3);
 }
 
 /*Linha do navbar depois da transição*/
