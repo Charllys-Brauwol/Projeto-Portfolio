@@ -19,7 +19,23 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
- 
+
+.img-seguranca{
+  margin-right: 55px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  
+}
+
+.img-seguranca img{
+  max-width: 350px;
+  max-height: auto;
+}
+
+.imagens_seguranca{
+  margin-left: 100px;
+}
+
 .img-home{
   background-image: url(../img/coding-website-background);
   background-color: rgba(0, 0, 0, 0.85);
