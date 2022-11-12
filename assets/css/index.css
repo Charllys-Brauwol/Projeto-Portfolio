@@ -15,28 +15,47 @@ body {
   background-attachment: fixed;
 }
 
-.projetoempresa{
+.veja_no_git {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0078ff;
+}
+
+.foto-sobre{
+  background-image: url(../img/Foto\ Charllys.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.projetoempresa {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.img-seguranca{
+.img-seguranca {
   margin-right: 55px;
   margin-top: 55px;
   margin-bottom: 55px;
-  
+
 }
 
-.img-seguranca img{
+.img-seguranca img {
   max-width: 350px;
   max-height: auto;
 }
 
-.imagens_seguranca{
+.imagens_seguranca {
   margin-left: 100px;
 }
 
-.img-home{
+.img-home {
   background-image: url(../img/coding-website-background);
   background-color: rgba(0, 0, 0, 0.85);
   background-blend-mode: overlay;
@@ -44,7 +63,7 @@ body {
   background-size: cover;
 }
 
-.img-portifolio img{
+.img-portifolio img {
   width: 100%;
 }
 
@@ -58,6 +77,7 @@ a:hover {
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
+
 /*
 .p-r {
   position: relative;
@@ -207,7 +227,7 @@ a:hover {
   position: relative;
 }
 
-.lead{
+.lead {
   text-align: justify;
 }
 
@@ -488,12 +508,12 @@ a:hover {
   width: 35px;
 }
 
-.navbar-b.navbar-trans .show > .nav-link:before,
-.navbar-b.navbar-trans .active > .nav-link:before,
+.navbar-b.navbar-trans .show>.nav-link:before,
+.navbar-b.navbar-trans .active>.nav-link:before,
 .navbar-b.navbar-trans .nav-link.show:before,
 .navbar-b.navbar-trans .nav-link.active:before,
-.navbar-b.navbar-reduce .show > .nav-link:before,
-.navbar-b.navbar-reduce .active > .nav-link:before,
+.navbar-b.navbar-reduce .show>.nav-link:before,
+.navbar-b.navbar-reduce .active>.nav-link:before,
 .navbar-b.navbar-reduce .nav-link.show:before,
 .navbar-b.navbar-reduce .nav-link.active:before {
   width: 35px;
@@ -509,8 +529,8 @@ a:hover {
 }
 
 /*Cor da Fonte do Home antes da transição*/
-.navbar-b.navbar-trans .show > .nav-link,
-.navbar-b.navbar-trans .active > .nav-link,
+.navbar-b.navbar-trans .show>.nav-link,
+.navbar-b.navbar-trans .active>.nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
   color: #0062d3;
@@ -540,8 +560,8 @@ a:hover {
 }
 
 /*Texto do navbar da seção que está*/
-.navbar-b.navbar-reduce .show > .nav-link,
-.navbar-b.navbar-reduce .active > .nav-link,
+.navbar-b.navbar-reduce .show>.nav-link,
+.navbar-b.navbar-reduce .active>.nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
   color: #0078ff;
@@ -1320,8 +1340,7 @@ footer .credits a {
 /*INICIO do estilo dos botões de CONTATOS*/
 .contatos {
   text-align: center;
-  
-  padding-bottom: 25px;
+  padding-bottom: 45px;
 }
 
 .btn:hover {
