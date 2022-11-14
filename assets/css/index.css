@@ -47,12 +47,15 @@ body {
 }
 
 .img-seguranca img {
-  max-width: 350px;
-  max-height: auto;
+  
+  max-width:100%;
+	height:auto;
+  margin-left: 100px;
 }
 
 .imagens_seguranca {
   margin-left: 100px;
+  
 }
 
 .img-home {
