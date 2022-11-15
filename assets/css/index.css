@@ -48,13 +48,14 @@ body {
 
 .img-seguranca img {
   
-  max-width:100%;
+  max-width:50%;
 	height:auto;
-  margin-left: 100px;
+  margin-left: 55px;
 }
 
 .imagens_seguranca {
-  margin-left: 100px;
+  max-width:100%;
+	height:auto;
   
 }
 
